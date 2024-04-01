@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nodejs-argocicd"
+  description: "nothing"
+  annotations:
+    github.com/project-slug: user:default/shujaahmedi2l/nodejs-argocicd
+    argocd/app-name: nodejs-argocicd
+  links:
+    - url: "https://dashboard.ideatolife.me"
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
